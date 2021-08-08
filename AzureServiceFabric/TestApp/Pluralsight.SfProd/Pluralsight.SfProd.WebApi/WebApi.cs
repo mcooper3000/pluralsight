@@ -23,7 +23,7 @@ namespace Pluralsight.SfProd.WebApi
             : base(context)
         {
             L.Config
-                .WriteTo.AzureApplicationInsights("8927d012-0e2f-46cc-8d7e-8a6a154bbc3d")
+                .WriteTo.AzureApplicationInsights("d5b0674f-a739-4b26-bc92-e8db47372477")
                 .CollectPerformanceCounters.PlatformDefault();
         }
 

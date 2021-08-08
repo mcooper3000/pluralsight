@@ -8,10 +8,10 @@
 #>
 
 param(
-   [string] [Parameter(Mandatory = $true)] $Name,
-   [string] [Parameter(Mandatory = $true)] $TenantId,
-   [string] [Parameter(Mandatory = $true)] $ClusterApplicationId,
-   [string] [Parameter(Mandatory = $true)] $ClientApplicationId
+   [string] [Parameter(Mandatory = $true)] $Name
+   #[string] [Parameter(Mandatory = $true)] $TenantId,
+   #[string] [Parameter(Mandatory = $true)] $ClusterApplicationId,
+   #[string] [Parameter(Mandatory = $true)] $ClientApplicationId
 )
 
 . "$PSScriptRoot\..\Common.ps1"

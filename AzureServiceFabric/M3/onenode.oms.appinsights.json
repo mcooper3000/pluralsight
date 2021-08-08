@@ -38,7 +38,7 @@
     },
     "vmNodeSize": {
       "type": "string",
-      "defaultValue": "Standard_b1s"
+      "defaultValue": "Standard_D2_V2"
     },
     "aadTenantId": {
       "type": "string"

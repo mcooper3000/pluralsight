@@ -1,6 +1,6 @@
 param(
    [string] [Parameter(Mandatory = $true)] $Name,
-   [string] $TemplateName = "onenode.json",  # name of the cluster ARM template
+   [string] $TemplateName = "onenode.oms.appinsights.json",  # name of the cluster ARM template
    [string] $Location = "westeurope"        # Physical location of all the resources
 )
 
